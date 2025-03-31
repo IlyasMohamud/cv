@@ -1,22 +1,64 @@
 <!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
-<html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title></title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="">
-    </head>
-    <body>
-        <!--[if lt IE 7]>
-            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
-        <![endif]-->
-        
-        <script src="" async defer></script>
-    </body>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="css/styling.css">
+    <script defer src="css/code.js"></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul class="nav-container">
+                <li class="nav-left"><a href="#home">Home</a></li>
+                <div class="nav-right">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </div>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="text-bubble">
+            <p>Welcome! This is my CV website where you can check out projects I've been working on.</p>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="about-container">
+            <img src="assets/myself.jpg" alt="My Image" class="profile-img">
+            <div class="about-text">
+                <h2>About Me</h2>
+                <p>
+                    <p>I'm finishing my Master's in Optimization at the University of Bergen while wrapping up my thesis and looking for a full-time job. Even with a busy schedule, I still try to take on projects whenever I can. I enjoy building things, mostly web and mobile apps, and right now, I'm working on an app while exploring different tech to see what I like best.</p>
+            
+            <p>I originally got into coding during my Bachelor's in Computer Technology, where I built a solid foundation in programming, data structures, and software development. Over time, I found myself drawn to web development and problem-solving, which led me to optimization and working on real-world challenges like scheduling and logistics problems.</p>
+
+            <p>Outside of academics, I've gained hands-on experience as a developer with <strong>Echo Consulting</strong>, where I worked on building websites for clients using React, Tailwind CSS, Sanity, and Remix Run. I've also volunteered at tech conferences like <strong>Booster Conference</strong>, which was a great way to meet people in the industry and stay inspired by new ideas.</p>
+
+            <p>Right now, my main focus is on finishing my degree and finding the right job, but I'm always open to new projects and learning opportunities. If you're working on something interesting or just want to chat about tech, feel free to reach out!</p>
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="projects">
+        <h2>Projects</h2>
+        <div class="project-list">
+            <a href="https://github.com/IlyasMohamud/weatherWeb" class="project" target="_blank">
+                <img src="assets/project1.png" alt="Project 1">
+                <p>Weather Forecast with API</p>
+            </a>
+            
+        </div>
+    </section>
+
+    <footer id="contact">
+        <p>Contact me: <a href="mailto:ilyasmo_1999@hotmail.co.uk">ilyasmo_1999@hotmail.co.uk</a></p>
+        <p>GitHub: <a href="https://github.com/IlyasMohamud" target="_blank">IlyasMohamud</a></p>
+    </footer>
+</body>
 </html>
