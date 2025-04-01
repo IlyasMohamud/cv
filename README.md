@@ -4,7 +4,7 @@ This is my CV Website, built using only HTML and CSS. The goal of this site is t
 
 The website features a fixed navigation bar that makes it easy to move between sections. The About Me section provides an introduction to who I am, my education, and my interests. Below that, the Projects section showcases some of the work I've done, with clickable links so visitors can explore them further. Finally, there is a Contact section with my email and GitHub so that people can easily get in touch.
 
-Everything on this site is built with just HTML and CSS, keeping it lightweight and straightforward. The design is fully responsive, ensuring it looks good on different screen sizes.
+Everything on this site is built with just HTML and CSS, keeping it lightweight and straightforward.
 
 ### File Structure
 The project is organized as follows:
