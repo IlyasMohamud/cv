@@ -76,12 +76,14 @@ nav {
 }
 
 .text-bubble {
-    background: rgba(255, 255, 255, 0.9);
+    background: rgba(255, 255, 255, 0);
     padding: 20px;
     border-radius: 15px;
     max-width: 350px;
     font-size: 18px;
-    color: black;
+    font-family:'Courier New', monospace;
+    color: white;
+    
     
     box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
 }
