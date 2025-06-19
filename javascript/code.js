@@ -165,7 +165,7 @@ $(document).ready(function() {
                             weatherInfo += `
                                 <div class="weather-item">
                                     <div>
-                                        <img src="images/${imageSrc}" alt="${condition}">
+                                        <img src="assets/${imageSrc}" alt="${condition}">
                                         <p><strong>${condition}</strong></p>
                                     </div>
                                     <p class="time-label">${finalFormattedTime}</p>
